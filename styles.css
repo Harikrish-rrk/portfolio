@@ -1,0 +1,80 @@
+body {
+  background-color: #f5eddc;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+  height: 4rem;
+  width: 100%;
+  font-size: 50px;
+  position: absolute;
+}
+.divbox {
+  top: 5rem;
+  left: 4%;
+  position: relative;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  top: 25rem;
+  height: 10rem;
+  width: 20rem;
+  color: aliceblue;
+  box-shadow: 0 1px 2px 0 rgb(255, 255, 255);
+  font-family: "Mochiy Pop One", sans-serif;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0 0 2rem 2rem;
+  position: absolute;
+}
+
+.mainimg {
+  border-radius: 2rem 2rem 0 0;
+  background-image: url("Screenshot 2022-08-03 014551.png");
+  background-size: 100%;
+  background-color: rgb(91, 39, 39);
+  position: absolute;
+  height: 25rem;
+  width: 20rem;
+}
+.container {
+  padding-left: 50px;
+  padding-bottom: 30px;
+  top: 7rem;
+  left: 30rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 2px 0 rgb(120, 108, 108);
+  height: 30rem;
+  width: 30rem;
+  background-color: rgb(247, 244, 161);
+  position: absolute;
+}
+.appear:hover {
+  justify-items: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 56, 56);
+  background-image: none;
+  font-family: "Mochiy Pop One", sans-serif;
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+  border-radius: 2rem;
+  opacity: 100%;
+  width: 60rem;
+  height: 35rem;
+}
+.appear {
+  transition: 1s;
+  z-index: 1;
+  opacity: 0%;
+  border-radius: 2rem;
+  position: absolute;
+  height: 35rem;
+  width: 20rem;
+}
+.container:hover {
+  scale: 1.05;
+}
